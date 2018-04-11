@@ -27,10 +27,12 @@ public class ModuloConexao {
         try {
             Class.forName(driver);
             conexao = DriverManager.getConnection(url, user, password);
+            //System.out.println("entrou na conexao");
             return conexao;
+            
         } catch (Exception e) {
            //msg para ver erro do motivo da não conexão com mysql
-           // System.out.println(e);
+           //System.out.println(e );
             return null;
         }
        

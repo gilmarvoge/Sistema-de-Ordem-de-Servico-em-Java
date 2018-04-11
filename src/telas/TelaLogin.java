@@ -38,6 +38,7 @@ public class TelaLogin extends javax.swing.JFrame {
                 // a estrutura abaixo faz o tratamento do perfil do usuário
                 if (perfil.equals("admin")) { // verificar igualdade com string deve utilizar equals e não ==      
                     //a linha abaixo exibe o conteudo do campo da tabela
+                    System.out.println("entrou");
                     TelaPrincipal principal = new TelaPrincipal();
                     principal.setVisible(true);
                     TelaPrincipal.MenRel.setEnabled(true);// libera menu relatorio se usuario for admin
@@ -60,6 +61,7 @@ public class TelaLogin extends javax.swing.JFrame {
             }
 
         } catch (Exception e) {
+            System.out.println(e);
             JOptionPane.showMessageDialog(null, e);
         }
     }
