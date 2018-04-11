@@ -5,5 +5,6 @@ Sistema Crud com inserção de usuários, clientes, e cadastro de Ordem de servi
 Sistema baseado no curso disponível no site "aulaead.com" com algumas modificações.
 
 
-![ScreenShot](s17.postimg.cc/jkze49uv3/tela_principal.jpg)
+![ScreenShot](https://s17.postimg.cc/jkze49uv3/tela_principal.jpg)
+
 ![ScreenShot](https://s17.postimg.cc/wcdkarwxb/tela_cliente.jpg)
